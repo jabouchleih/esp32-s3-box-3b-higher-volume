@@ -10,8 +10,8 @@ services:
       - /etc/localtime:/etc/localtime:ro
     privileged: true
     environment:
-      - USERNAME=janes
-      - PASSWORD=vh4F5UR4eDTz7R6dT2mZYGWf
+      - USERNAME=randomuser
+      - PASSWORD=randompassword
       - TZ=Europe/Berlin
     restart: unless-stopped
     ports:
